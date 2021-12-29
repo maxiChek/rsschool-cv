@@ -1,5 +1,4 @@
-Maksim Grekoff
-==============
+# Maksim Grekoff
 
 ## Junior .NET Developer 
 
@@ -23,8 +22,7 @@ where I continued self-learning, examining the process of creating wine and food
 * HTML5, CSS3
 * JavaScript Basics
 * Git, GitHub
-* VS Code, IntelliJ IDEA
-* Adobe Photoshop, Illustrator, InDesign
+* Visual Studio, VS Code 
 
 ## Code example:
 
