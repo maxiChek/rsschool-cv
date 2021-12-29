@@ -4,12 +4,12 @@
 
 ### Contact information:
 
-- **Phone**: +375 25 9044323
-- **E-mail**: mgrekov5@gmail.com
-- **Telegram**: @WallStreetExam
-- **Twitter**: @WallStreetExam
-LinkedIn
-Skype
+* __Phone__: +375 25 9044323
+* __E-mail__: mgrekov5@gmail.com
+* __Telegram__: @WallStreetExam
+* __Twitter__: @WallStreetExam
+* LinkedIn
+* Skype
 
 ### Briefly About Myself:
 
