@@ -1,7 +1,7 @@
 **Maksim Grekoff**
-  ==============
+================
 **Junior Frontend Developer**
-  -------------------------
+---------------------------
 
 ## Junior .NET Developer 
 
