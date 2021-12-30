@@ -17,10 +17,13 @@ I am a Junior .NET Developer with financial background and experience. Having st
 
 My keen interest in blockchain technology and
 
+led me to working as a Prepress and DTP Engineer in the largest printing house in my city,
+where I continued self-learning, examining the process of creating wine and food labels, magazines and other printed goods.
+
 ### Skills and Proficiency:
 
-* HTML5, CSS3
-* JavaScript Basics
+* C#, SQL
+* HTML5, CSS3, JavaScript
 * Git, GitHub
 * Visual Studio, VS Code 
 
