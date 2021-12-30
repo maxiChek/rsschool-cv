@@ -25,6 +25,7 @@ where I continued self-learning, examining the process of creating wine and food
 * C#, SQL
 * HTML5, CSS3, JavaScript
 * Git, GitHub
+* Blockchain
 * Visual Studio, VS Code 
 
 ## Code example:
