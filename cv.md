@@ -15,7 +15,7 @@
 
 I am a Junior .NET Developer with financial background and experience. Having started my career as an economist in an industrial, I quickly realized that the world goes forward toward complex RDBMS and network technologies, and that's why I've become a .NET developer.
 
-My keen interest in blockchain technology and
+My keen interest in blockchain technology and finance.
 
 
 
