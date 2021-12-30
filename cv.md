@@ -13,14 +13,17 @@
 
 ### Briefly About Myself:
 
-Having started my career as an economist in a industials, I quickly realized.
-My keen interest in printing technologies led me to working as a Prepress and DTP Engineer in the largest printing house in my city,
+I am a Junior .NET Developer with financial background and experience. Having started my career as an economist in an industrial, I quickly realized that the world goes forward toward complex RDBMS and network technologies, and that's why I've become a .NET developer.
+
+My keen interest in blockchain technology and
+
+led me to working as a Prepress and DTP Engineer in the largest printing house in my city,
 where I continued self-learning, examining the process of creating wine and food labels, magazines and other printed goods.
 
 ### Skills and Proficiency:
 
-* HTML5, CSS3
-* JavaScript Basics
+* C#, SQL
+* HTML5, CSS3, JavaScript
 * Git, GitHub
 * Visual Studio, VS Code 
 
