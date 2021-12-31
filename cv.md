@@ -18,7 +18,6 @@ I am a Junior .NET Developer with financial background and experience. Having st
 My keen interest in blockchain technology and finance. And it has become the hottest field in the tech sector now.
 
 
-
 ### Skills and Proficiency:
 
 * C#, SQL
