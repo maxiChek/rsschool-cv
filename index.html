@@ -5,103 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <link rel="stylesheet" href="style.css">
 
 <body>
-    <section class="profile">
-        <h1>Maksim Grekov</h1>
-        <p>dotNet Developer</p>
-        <img src="/Assets/img/unnamed.jpg" alt="My photo">
-    </section>
+    <div class="cv">
+        <div class="column">
+            <section class="profile">
+                <h1>Maksim Grekov</h1>
+                <p><em>dotNET Developer</em></p>
+                <img src="/Assets/img/unnamed.jpg" alt="My photo">
+            </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <ul>
-            <li>Gomel, Belarus</li>
-            <li>mgrekov5@gmail.com</li>
-            <li>+375 25 9044323</li>
-        </ul>
-    </section>
-
-    <section class="objectives">
-        I am a Junior .NET Developer with financial background and experience. Having started my career as an economist in an industrial, I quickly realized that the world goes forward toward complex RDBMS and network technologies, and that's why I've become
-        a .NET developer. My keen interest in blockchain technology and finance. Since it has become the hottest field in the tech sector now
-    </section>
-
-    <section class="socials">
-        <ul>
-            <li>
-                <h3>My Socials</h3>
-            </li>
-            <li>Telegram: #WallStreetExam</li>
-            <li>Twitter: @WallStreetExam</li>
-            <li>LinkedIn</li>
-            <li>Skype</li>
-        </ul>
-    </section>
-
-    <section class="skills">
-        <h2>Capabilities/Skills</h2>
-        <ul>
-            <li>
-                <h3>Hards</h3>
+            <section class="contact">
+                <h2>Contacts</h2>
                 <ul>
-                    <li>C#, SQL</li>
-                    <li>HTML5, CSS3, JavaScript</li>
-                    <li>Git, GitHub</li>
-                    <li>Blockchain</li>
-                    <li>Visual Studio, VS Code</li>
+                    <li>Gomel, Belarus</li>
+                    <li>
+                        <a href="mailto:mgrekov5@gmail.com">mgrekov5@gmail.com</a></li>
+                    <li><a href="https://github.com/maxiChek">https://github.com/maxiChek</a></li>
+                    <li><a href="tel:+375 25 9044323">(+375)25 9044323</a></li>
                 </ul>
-            </li>
-            <li>
-                <h3>Softs</h3>
+            </section>
+
+            <section class="objectives">
+                I am a Junior .NET Developer with financial background and experience. Having started my career as an economist in an industrial, I quickly realized that the world goes forward toward complex RDBMS and network technologies, and that's why I've become
+                a .NET developer. My keen interest in blockchain technology and finance. Since it has become the hottest field in the tech sector now
+            </section>
+
+            <section class="socials">
                 <ul>
-                    <li>Team Player</li>
+                    <li>
+                        <h3>My Socials</h3>
+                    </li>
+                    <li>Telegram: #WallStreetExam</li>
+                    <li>Twitter: @WallStreetExam</li>
+                    <li>LinkedIn</li>
+                    <li>Skype</li>
                 </ul>
-            </li>
-        </ul>
-    </section>
+            </section>
 
-    <section class="education">
-        <h2>Education</h2>
-        <ul class="timeline">
-            <li class="event">
-                <span class="duration">2018 - 2019</span>
-                <h3>Enter your Degree/Major</h3>
-                <p>Computer Science School IT Class</p>
-                <p>Backend and Frontend</p>
-            </li>
-            <li class="event">
-                <span class="duration">1996 - 2002</span>
-                <h3>Enter your Degree/Major</h3>
-                <p>GSU named after Francisc Scoryna</p>
-                <p>Studing Economics and Finance</p>
-            </li>
-        </ul>
-    </section>
+        </div>
+        <div class="column">
+            <section class="skills">
+                <h2>Capabilities/Skills</h2>
+                <ul>
+                    <li>
+                        <h3>Hards</h3>
+                        <ul>
+                            <li>C#, SQL</li>
+                            <li>HTML5, CSS3, JavaScript</li>
+                            <li>Git, GitHub</li>
+                            <li>Blockchain</li>
+                            <li>Visual Studio, VS Code</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Softs</h3>
+                        <ul>
+                            <li>Team Player</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <ul class="timeline">
+                    <li class="event">
+                        <span class="duration">2018 - 2019</span>
+                        <div class="content">
+                            <h3>Enter your Degree/Major</h3>
+                            <p><em>Computer Science School "IT Class"</em></p>
+                            <p>Backend and Frontend</p>
+                        </div>
+                    </li>
+                    <li class="event">
+                        <span class="duration">1996 - 2002</span>
+                        <div class="content">
+                            <h3>Enter your Degree/Major</h3>
+                            <p><em>GSU named after Francisc Scoryna</em></p>
+                            <p>Studing Economics and Finance</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
 
-    <section class="experience">
-        <h2>Experience</h2>
-        <ul class="timeline">
-            <li class="event">
-                <span class="duration">2002 - 2006</span>
-                <h3>Senior Economist</h3>
-                <p>JSC "Road-building trest №2"</p>
-                <p>Building of roads and bridges</p>
-                <li class="event">
-                    <span class="duration">2002 - 2006</span>
-                    <h3>Senior Economist</h3>
-                    <p>JSC "GomelCabel"</p>
-                    <p>Production of cables of different sorts</p>
-                </li>
-        </ul>
-    </section>
+            <section class="experience">
+                <h2>Experience</h2>
+                <ul class="timeline">
+                    <li class="event">
+                        <span class="duration">2006 - 2008</span>
+                        <div class="content">
+                            <h3>Senior Economist</h3>
+                            <p>JSC "Road-building trest №2"</p>
+                            <p>Building of roads and bridges</p>
+                        </div>
+                        <li class="event">
+                            <span class="duration">2002 - 2006</span>
+                            <div class="content">
+                                <h3>Senior Economist</h3>
+                                <p>JSC "GomelCabel"</p>
+                                <p>Production of cables of different sorts</p>
+                            </div>
+                        </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
 </body>
-
-<!-- -->
-
-<div style="height: 400px"></div>
 
 </html>
