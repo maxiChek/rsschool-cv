@@ -62,9 +62,9 @@ ul {
 }
 
 .profile img {
-    width: 15rem;
-    margin: 5px;
-    border-radius: 100%;
+    width: 20rem;
+    margin: 10px;
+    border-radius: 80%;
 }
 
 .profile p {
@@ -116,4 +116,10 @@ ul {
     grid-gap: 4rem;
     background-color: white;
     padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.projects ul {
+    font-size: 1.25rem;
 }
