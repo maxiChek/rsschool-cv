@@ -1,5 +1,5 @@
 # Maksim Grekoff
-![photo](/Assets/photo3.jpg)
+![photo](/Assets/img/photo3.jpg)
 ## Junior .NET Developer 
 
 ### Contact information:
