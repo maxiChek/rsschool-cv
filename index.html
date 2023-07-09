@@ -4,11 +4,241 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+    rel="stylesheet">
+  <title>Maxim Grekov</title>
+  <link rel="stylesheet" href="style.css">
+  <link id="theme-style" rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
 
+  <header class="header">
+    <div class="main-container">
+      <div class="greeting-wrapper">
+        <h1>Hi, I'm Maxim Grekov</h1>
+      </div>
+
+      <div class="intro-wrapper">
+        <div class="nav-wrapper">
+          <a href="index.html">
+            <div class="dots-wrapper">
+              <div id="dot-1" class="browser-dot"></div>
+              <div id="dot-2" class="browser-dot"></div>
+              <div id="dot-3" class="browser-dot"></div>
+            </div>
+          </a>
+
+          <nav class="social-links">
+            <a href="https://github.com/maxichek" target="_blank">
+              <i class="fab fa-github-square" style="color: #171515;"></i>
+            </a>
+            <a href="https://discord.com"><i class="fab fa-brands fa-discord" style="color: #5865F2;"></i></a>
+            <a href=""><i class="fab fa-brands fa-telegram" style="color: #229ED9;"></i></a>
+            <a href="https://twitter.com/wallstreetexam"><i class="fab fa-brands fa-twitter"
+                style="color: #00acee ;"></i></a>
+            <a href="https://www.linkedin.com/in/maxichek-grekov-3181181a/"><i class="fab fa-linkedin"
+                style="color: #0072b1 ;"></i></a>
+            <a href="https://join.skype.com/invite/i3y4oJzd6F3v"><i class="fab fa-brands fa-skype"
+                style="color: #00aff0 ;"></i></a>
+          </nav>
+
+          <ul id="navigation">
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="left-column">
+          <img id="profile_pic" src="Assets/img/photo3.jpg" alt="">
+          <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
+
+          <div id="theme-options-wrapper">
+            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+          </div>
+
+          <p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
+        </div>
+
+        <div class="right-column">
+
+          <div id="preview-shadow">
+            <div id="preview">
+              <div id="corner-tl" class="corner"></div>
+              <div id="corner-tr" class="corner"></div>
+              <h2>Who am I <br> What I Do</h2>
+              <p>I was a lead developer in a past life, now I try to resurrect.</p>
+              <div id="corner-br" class="corner"></div>
+              <div id="corner-bl" class="corner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="section2">
+    <div class="main-container">
+
+      <div class="about-wrapper">
+        <div class="about-me">
+          <h2>More about me</h2>
+          <p>I am a Junior .NET Developer with financial background and experience. Having started my career as an
+            economist in an industrial, I quickly realized that the world goes forward toward complex RDBMS and
+            network technologies, and that's
+            why I've become a .NET developer.
+            My keen interests lie in blockchain technology and finance.</p>
+          <p>Since it has become the hottest field in the
+            tech sector now I started to learn how blockchain works and how it can be applied in various sectors.
+            Moreover, blockchain and crypto-economics are
+            expected to play a huge role in powering of decentralized economic systems also known as “sharing
+            economy” 2.0.</p>
+
+          <!-- <hr> -->
+
+          <h2>TOP EXPERTISE</h2>
+
+          <p>.NET developer with primary focus on CSharp + React: <a target="_blank" href="resume.pdf">Download
+              Resume</a></p>
+
+          <div id="skills">
+            <ul>
+              <li>Python</li>
+              <li>Django</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Postgres</li>
+            </ul>
+
+            <ul>
+              <li>Google Maps API</li>
+              <li>JS Charts</li>
+              <li>AWS (RDS/S3)</li>
+              <li>Heroku</li>
+              <li>HTML/CSS</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <section class="education">
+          <h2>Education</h2>
+          <ul class="timeline">
+            <li class="event">
+              <span class="duration">2021</span>
+              <div class="content">
+                <h5>.NET Development</h5>
+                <p><em>.NET Framework with C#</em></p>
+                <p>Backend and Frontend</p>
+              </div>
+            </li>
+            <li class="event">
+              <span class="duration">2018 - 2019</span>
+              <div class="content">
+                <h5>Computer Basics</h5>
+                <p><em>Computer Science School "IT Class"</em></p>
+                <p>Backend and Frontend</p>
+              </div>
+            </li>
+            <li class="event">
+              <span class="duration">1996 - 2002</span>
+              <div class="content">
+                <h5>Economics and Managment</h5>
+                <p><em>GSU named after Francisc Scoryna</em></p>
+                <p>Studing Economics and Finance</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <main class="section1">
+    <div class="main-container">
+      <h3 style="text-align: center;">Some of my past projects</h3>
+
+      <div class="post-wrapper">
+
+        <div>
+          <div class="post">
+            <img class="thumbnail" src="Assets/img/plants.jpg">
+            <div class="post-preview">
+              <h6 class="post-title">Garderners Service Shop</h6>
+              <p class="post-intro">Designed built & mantained a the lab managment system for FOI Laboratories</p>
+              <a href="post.html">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="post">
+            <img class="thumbnail" src="Assets/img/shelter.jpg">
+            <div class="post-preview">
+              <h6 class="post-title">Shelter for pets in Boston</h6>
+              <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
+              <a href="post.html#shelter">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="post">
+            <img class="thumbnail" src="Assets/img/ddt-band.jpg">
+            <div class="post-preview">
+              <h6 class="post-title">DDT-Band Website</h6>
+              <p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
+              <a href="post.html">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <section class="section2">
+    <div class="main-container">
+      <a href=""></a>
+      <h3 style="text-align: center;">Get In Touch</h3>
+
+      <form id="contact-form">
+        <a name="contact"></a>
+
+        <label>Name</label>
+        <input class="input-field" type="text" name="name">
+
+        <label>Subject</label>
+        <input class="input-field" type="text" name="subject">
+
+        <label>Email</label>
+        <input class="input-field" type="text" name="email">
+
+        <label>Message</label>
+        <textarea class="input-field" name="message"></textarea>
+
+        <input id="submit-btn" type="submit" value="Send">
+      </form>
+    </div>
+  </section>
+
+  <footer class="main-container">
+    <a href="https://rs.school/js/"><img src="./Assets/favicons/rs_school_js.svg" width="100" alt="rs_school"></a>
+
+    <li style="color: black;">© 2023 by Maxim Grekov</li>
+    <li>
+      <a href="https://github.com/maxichek" target="_blank">
+        <i class="fab fa-github-square" style="color: #171515;"></i>
+      </a>
+    </li>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
