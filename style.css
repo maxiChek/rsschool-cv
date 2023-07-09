@@ -130,7 +130,7 @@ h6 {
 }
 
 #navigation a {
-  /* color: var(--mainText); */
+  color: var(--mainText);
 }
 
 #navigation {
@@ -189,6 +189,7 @@ h6 {
   width: 12.5rem;
   object-fit: cover;
   border: 2px solid var(--borderColor);
+  border-radius: 0.3rem;
 }
 
 #theme-options-wrapper {
@@ -243,13 +244,81 @@ h6 {
 
 .right-column {
   grid-area: right-column;
+  display: grid;
+  align-content: center;
+
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
 }
 
+#preview-shadow {
+  background-color: var(--previewShadow);
+  max-width: 18.75rem;
+  height: 180px;
+  padding-left: 1.875rem;
+  padding-top: 1.875rem;
+}
+
+#preview {
+  width: 18.75rem;
+  border: 1.5px solid #17a2b8;
+  background-color: var(--previewBg);
+  padding: 15px;
+  position: relative;
+}
+
+.corner {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1.5px solid #17a2b8;
+  background-color: #fff;
+  position: absolute;
+}
+
+#corner-tl {
+  top: -5px;
+  left: -5px;
+}
+
+#corner-tr {
+  top: -5px;
+  right: -5px;
+}
+
+#corner-br {
+  bottom: -5px;
+  right: -5px;
+}
+
+#corner-bl {
+  bottom: -5px;
+  left: -5px;
+}
 /* Right Column styles end */
 
-/*Media Queries  */
-@media screen and (max-width: 1200px) {
+/* About Section styles start */
+
+/* About Section styles end */
+
+/*Media Queries start */
+
+@media screen and (max-width: 75rem) {
   .main-container {
     width: 95%;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  .intro-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav-wrapper"
+      "left-column"
+      "right-column";
+  }
+
+  .right-column {
+    justify-content: center;
   }
 }
