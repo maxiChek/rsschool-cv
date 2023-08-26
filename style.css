@@ -450,6 +450,7 @@ h6 {
 footer {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 /*Media Queries start */
@@ -471,5 +472,16 @@ footer {
 
   .right-column {
     justify-content: center;
+  }
+
+  .fab {
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 40rem) {
+  .fab {
+    padding-right: 1.5rem;
+    font-size: 2rem;
   }
 }
