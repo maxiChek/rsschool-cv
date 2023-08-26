@@ -449,7 +449,7 @@ h6 {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -488,7 +488,11 @@ footer {
 
 @media screen and (max-width: 35rem) {
   .fab {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
+  }
+
+  .fab.fa-github-square {
+    margin-left: 1em;
   }
 
   .fa-brands.fa-discord {
@@ -497,5 +501,37 @@ footer {
 
   .fa-brands.fa-telegram {
     display: none;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .fab {
+    padding-right: 1rem;
+    font-size: 1.7rem;
+  }
+
+  .fab.fa-github-square {
+    margin-left: 0.3em;
+  }
+
+  .fa-brands.fa-discord {
+    display: none;
+  }
+
+  .fa-brands.fa-telegram {
+    display: none;
+  }
+
+  .right-column {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+  }
+
+  #preview-shadow {
+    max-width: 13.75rem;
+  }
+
+  #preview {
+    width: 13.75rem;
   }
 }
