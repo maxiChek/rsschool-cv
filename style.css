@@ -113,6 +113,23 @@ body {
   margin-bottom: 20px;
   margin-top: 50px;
 }
+.container .content-box ul {
+  position: relative;
+  margin: 10px 0;
+}
+.container .content-box ul li {
+  list-style: none;
+  margin: 25px 0;
+  line-height: 1em;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+}
+.container .content-box ul li i {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #3590d2;
+}
 
 body * {
   /* transition: 0.3s; */
