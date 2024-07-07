@@ -29,13 +29,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
 
 .container {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   background: #fff;
   margin: 50px;
   box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
@@ -140,13 +140,13 @@ h5 {
 }
 h4 {
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
   margin: 5px 0;
 }
 h6 {
   font-weight: #666;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 .language li {
   flex-direction: column;
@@ -201,40 +201,61 @@ h6 {
   margin-right: 0;
 }
 
-body * {
-  /* transition: 0.3s; */
+p {
+  font-style: 300;
+}
+.right-side {
+  padding-left: 40px;
+}
+.experiance h5 {
+  margin-bottom: 5px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong {
-  /* color: var(--mainText); */
-  /* font-family: 'Russo One', sans-serif; */
-  /* font-weight: 500; */
+.about .image-box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .image-box .experiance {
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+.about .image-box .experiance h5 {
+  color: #333;
+  font-weight: 600;
+}
+.about .image-box .experiance h5:nth-child(1) {
+  color: #3590d2;
+}
+.about .image-box .text h4 {
+  color: #3590d2;
+  font-size: 16px;
+  margin: 0;
 }
 
-p,
-li,
-span,
-label,
-input,
-textarea,
-div {
-  /* color: var(--secondaryText); */
-  /* font-family: 'Roboto Mono', monospace; */
+.about.skills .image-box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  justify-content: center;
+  align-items: center;
 }
-
-a {
-  /* text-decoration: none;
-  color: #17a2b8; */
+.about.skills .image-box h4 {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
-
-ul,
-li,
-nav {
-  /* list-style: none; */
+.about.skills .image-box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #e3e3e3;
+}
+.about.skills .image-box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #3590d2;
 }
