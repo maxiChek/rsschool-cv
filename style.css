@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
-:root {
-  --mainColor: #eaeaea;
-  --secondaryColor: #fff;
-
-  --borderColor: #c1c1c1;
-
-  --mainText: black;
-  --secondaryText: #4b5156;
-
-  --themeDotBorder: #24292e;
-
-  --previewBg: rgb(251, 249, 243, 0.8);
-  --previewShadow: #f0ead6;
-
-  --buttonColor: black;
-}
 * {
   font-family: 'Poppins', sans-serif;
   padding: 0;
@@ -39,8 +23,8 @@ body {
   background: #fff;
   margin: 50px;
   box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
-  border-left: 50px solid #fff;
-  border-right: 50px solid #fff;
+  border-left: 40px solid #fff;
+  border-right: 40px solid #fff;
 }
 
 .container .top {
@@ -81,14 +65,14 @@ body {
   padding: 40px;
   display: flex;
 }
-.container .top .profile-info h3 {
+.container .top .profile-info h1 {
   font-size: 3em;
   letter-spacing: 0.1em;
   line-height: 1.2em;
   font-weight: 600;
   color: #333;
 }
-.container .top .profile-info h3 span {
+.container .top .profile-info h1 span {
   position: relative;
   font-size: 0.5em;
   font-weight: 300;
@@ -200,11 +184,18 @@ h6 {
   color: #fff;
   margin-right: 0;
 }
-
+pre {
+  background: #e4dfdf;
+  padding: 15px;
+}
+code {
+  line-height: 1.5em;
+}
 p {
   font-style: 300;
 }
 .right-side {
+  margin-top: -8px;
   padding-left: 40px;
 }
 .experiance h5 {
@@ -258,4 +249,19 @@ p {
   left: 0;
   height: 100%;
   background: #3590d2;
+}
+.about.skills h2 {
+  margin-bottom: 9px;
+}
+a {
+  text-decoration: none;
+  color: #17a2b8;
+  font-size: 17px;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #ecebeb;
+  width: 100%;
 }
