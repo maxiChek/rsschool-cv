@@ -236,6 +236,7 @@ p {
   color: #333;
   font-weight: 500;
   margin-bottom: 5px;
+  margin-right: 16px;
 }
 .about.skills .image-box .percent {
   position: relative;
