@@ -131,6 +131,76 @@ body {
   color: #3590d2;
 }
 
+.container .content-box ul.education li {
+  flex-direction: column;
+  margin: 25px 0;
+}
+h5 {
+  color: #3590d2;
+}
+h4 {
+  color: #333;
+  font-weight: 500;
+  margin: 5px 0;
+}
+h6 {
+  font-weight: #666;
+  font-weight: 300;
+  font-size: 1em;
+}
+.language li {
+  flex-direction: column;
+}
+.language li span {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+}
+.language .percent {
+  position: relative;
+  width: 100%;
+  background: #e3e3e3;
+  height: 4px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: block;
+  overflow: hidden;
+}
+.language .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #3590d2;
+}
+
+.container .content-box ul.interest {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.container .content-box ul.interests li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.container .content-box ul.interests li .icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #3590d2;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content-box ul.interests li .icon i {
+  color: #fff;
+  margin-right: 0;
+}
+
 body * {
   /* transition: 0.3s; */
 }
@@ -167,23 +237,4 @@ ul,
 li,
 nav {
   /* list-style: none; */
-}
-
-h1 {
-  font-size: 56px;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 0.81rem;
-}
-h4 {
-  font-size: 24px;
-}
-h5 {
-  font-size: 20px;
-}
-h6 {
-  font-size: 16px;
 }
