@@ -24,7 +24,7 @@ body {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   min-height: 800px;
   background: var(--base);
   display: grid;
@@ -105,6 +105,9 @@ body {
 .profile-info .title {
   padding-bottom: 1em;
 }
+.profile-info a {
+  color: var(--base);
+}
 .profile-info ul li {
   list-style: none;
   margin-bottom: 0.5em;
@@ -133,4 +136,77 @@ body {
   width: 100%;
   height: 0.4em;
   background: var(--secondary);
+}
+/*  */
+.main-items {
+  margin-bottom: 2em;
+  font-weight: 600;
+  color: var(--primary);
+}
+.main-items .title {
+  text-transform: uppercase;
+  margin-bottom: 0.6em;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+}
+.experience .time-line {
+  margin-top: 1px;
+}
+.experience .time-line .time-point {
+  width: 1.2em;
+  height: 1.2em;
+  display: block;
+  background: var(--secondary);
+  border-radius: 50%;
+}
+.experience .time-line .time-road {
+  width: 0.2em;
+  height: 100%;
+  display: block;
+  background: var(--secondary);
+  transform: translate(0.5em, 0);
+}
+.experience .content {
+  display: grid;
+  grid-template-columns: 10rem auto;
+}
+.experience .content .interval {
+  color: var(--primary);
+  min-width: 10em;
+  text-align: center;
+  font-weight: 400;
+}
+.experience .content .description h4 {
+  color: var(--secondary);
+}
+/* SKILLS */
+.skills {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10em 1fr;
+  margin: 1em 0;
+}
+.skills .percent {
+  width: 100%;
+  height: 0.6em;
+  background: var(--primary);
+}
+.skills .percent div {
+  width: 100%;
+  height: 0.6em;
+  background: var(--secondary);
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+#footer {
+  position: relative;
+  margin-bottom: -20px;
+  min-height: 80px;
+  /* clear: both; */
 }

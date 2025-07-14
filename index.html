@@ -12,26 +12,24 @@
   </head>
   <body>
     <div class="container">
-      <div class="side-panel">
-        <div class="profile">
+      <nav class="side-panel">
+        <header class="profile">
           <div class="cv-photo">
-            <img
-              src="./Assets/img/DSC05 - Copy.jpg"
-              width="260"
-              alt="cv-photo"
-            />
+            <img src="./Assets/img/DSC05.jpg" width="260" alt="cv-photo" />
           </div>
           <h1>Maksim Grekov</h1>
           <h5>Junior Web Developer</h5>
           <button class="btn">Download PDF</button>
-        </div>
+        </header>
 
         <div class="profile-info">
-          <h4 class="title">Contact Info</h4>
+          <h2 class="title">Contact Info</h2>
           <ul>
             <li>
               <span class="icon"> <i class="fab fa-github-square"></i></span>
-              <span class="text">https://maxichek.github.io/rsschool-cv/</span>
+              <a href="https://maxichek.github.io/rsschool-cv/" class="text"
+                >https://maxichek.github.io/rsschool-cv/</a
+              >
             </li>
             <li>
               <span class="icon"><i class="fa fa-envelope"></i></span>
@@ -55,7 +53,7 @@
         </div>
 
         <div class="profile-info">
-          <h4 class="title">Education</h4>
+          <h2 class="title">Education</h2>
           <ul>
             <li>
               <h4 class="dates">September 1996 — July 2002</h4>
@@ -69,13 +67,12 @@
               <h5 class="text">
                 .NET training - develop 'Ticket management' application
               </h5>
-              <h5 class="text"></h5>
             </li>
           </ul>
         </div>
 
         <div class="profile-info">
-          <h4 class="title">Certificates</h4>
+          <h2 class="title">Certificates</h2>
           <ul>
             <li>
               <h4 class="dates">July 2026</h4>
@@ -101,9 +98,143 @@
             </li>
           </ul>
         </div>
-      </div>
+      </nav>
 
-      <div class="main-panel"></div>
+      <main class="main-panel">
+        <!--  -->
+        <div class="main-items">
+          <h3 class="title">Summary</h3>
+          <p>
+            Junior web developer and .NET developer, 44 years, with 1 year of
+            experience able to build .Net web applications from the ground up -
+            information gathering, planning, design, development, testing and
+            delivery and maintenance. Proficient in an assortment of
+            technologies, React JS (including Redux Toolkit & Tailwind CSS),
+            MEAN stack (Angular + Node.js + Express + MongoDB), C#, ASP.NET,
+            Microsoft SQL Server. Able to effectively self-manage during
+            independent projects, as well as collaborate in a team setting.
+          </p>
+        </div>
+        <!-- Exper -->
+        <div class="main-items">
+          <h3 class="title">Experience</h3>
+          <div class="experience">
+            <div class="time-line">
+              <span class="time-point"></span>
+              <span class="time-road"></span>
+            </div>
+            <div class="content">
+              <div class="interval">
+                <h5>2020 - Present</h5>
+                <h5>Company</h5>
+              </div>
+              <div class="description">
+                <h4>Junior Web Developer</h4>
+                <p>
+                  Evaluated current economic conditions and provided
+                  recommendations for strategic investments • Conducted a
+                  cost-benefit analysis to assess the economic impacts of
+                  proposed projects
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="experience">
+            <div class="time-line">
+              <span class="time-point"></span>
+              <span class="time-road"></span>
+            </div>
+            <div class="content">
+              <div class="interval">
+                <h5>2020 - Present</h5>
+                <h5>Company</h5>
+              </div>
+              <div class="description">
+                <h4>UX/UI Designer</h4>
+                <p>
+                  Analyzed financial data to identify trends, potential risks,
+                  and areas for improvement • Developed and maintained financial
+                  models to forecast revenue and expenses, resulting in accurate
+                  projections • Analyzed financial data to identify trends and
+                  insights, resulting in improved financial performance
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="main-items">
+          <h3 class="title">Professional Skills</h3>
+          <div class="skills">
+            <h4>HTML & CSS</h4>
+            <div class="percent">
+              <div style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="skills">
+            <h4>JavaScript</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+          <div class="skills">
+            <h4>React JS (including Redux Toolkit & Tailwind CSS)</h4>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <pre><code>
+            function typeOfSum(a, b) {
+              return typeof(a + b);
+            }
+          </code></pre>
+        <div class="main-items">
+          <h3 class="title">Garderners Service Shop</h3>
+          <p>
+            Designed built & mantained a the lab managment system for FOI
+            Laboratories
+          </p>
+          <img src="Assets/img/plants.jpg" alt="plants" width="100" />
+          <!-- <br /> -->
+          <a
+            href="https://rolling-scopes-school.github.io/maxichek-JSFEPRESCHOOL2022Q4/plants/"
+            >&nbsp;Read More</a
+          >
+        </div>
+        <div class="main-items">
+          <h3 class="title">Shelter for pets in Boston</h3>
+          <p class="post-intro">
+            We offer to give a chance to a little and nice puppy with an
+            extremely wide and open heart.
+          </p>
+          <br />
+          <img src="Assets/img/shelter.jpg" alt="shelter" width="100" />
+          <a
+            href="https://rolling-scopes-school.github.io/maxichek-JSFE2023Q1/shelter/"
+            >&nbsp;Read More</a
+          >
+        </div>
+        <footer id="footer">
+          <a href="https://rs.school/js/"
+            ><img
+              src="./Assets/favicons/rs_school_js.svg"
+              width="100"
+              alt="rs_school"
+          /></a>
+
+          <p style="color: black">© 2025 by Maxim Grekov</p>
+          <p>
+            <a href="https://github.com/maxichek" target="_blank">
+              <i
+                class="fab fa-github-square"
+                style="color: #171515; font-size: 3rem"
+              ></i>
+            </a>
+          </p>
+        </footer>
+      </main>
     </div>
   </body>
 </html>
