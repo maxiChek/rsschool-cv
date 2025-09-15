@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maksim Grekov's CV</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    >
   </head>
   <body>
     <div class="container">
       <nav class="side-panel">
         <header class="profile">
           <div class="cv-photo">
-            <img src="./Assets/img/DSC05.jpg" width="260" alt="cv-photo" />
+            <img src="./Assets/img/DSC05.jpg" width="260" alt="cv-photo" >
           </div>
           <h1>Maksim Grekov</h1>
           <h5>Junior Web Developer</h5>
-          <button class="btn">Download PDF</button>
+          <button type="" class="btn">Download PDF</button>
         </header>
 
         <div class="profile-info">
           <h2 class="title">Contact Info</h2>
           <ul>
             <li>
-              <span class="icon"> <i class="fab fa-github-square"></i></span>
-              <a href="https://maxichek.github.io/rsschool-cv/" class="text"
-                >https://maxichek.github.io/rsschool-cv/</a
-              >
+              <span class="icon"><i class="fab fa-github-square"></i></span>
+              <a href="https://maxichek.github.io/rsschool-cv/" class="text">
+                https://maxichek.github.io/rsschool-cv/
+              </a>
             </li>
             <li>
               <span class="icon"><i class="fa fa-envelope"></i></span>
@@ -40,13 +40,14 @@
               <span class="text">+375 25 904 4323</span>
             </li>
             <li>
-              <span class="icon"
-                ><a href="https://discord.com/channels/@me"
-                  ><i
+              <span class="icon">
+                <a href="https://discord.com/channels/@me">
+                  <i
                     class="fab fa-brands fa-discord"
                     style="color: #11a1bb"
-                  ></i></a
-              ></span>
+                  ></i>
+                </a>
+              </span>
               <span class="text">@maxichek</span>
             </li>
           </ul>
@@ -196,12 +197,13 @@
             Designed built & mantained a the lab managment system for FOI
             Laboratories
           </p>
-          <img src="Assets/img/plants.jpg" alt="plants" width="100" />
+          <img src="Assets/img/plants.jpg" alt="plants" width="100" >
           <!-- <br /> -->
           <a
             href="https://rolling-scopes-school.github.io/maxichek-JSFEPRESCHOOL2022Q4/plants/"
-            >&nbsp;Read More</a
           >
+            &nbsp;Read More
+          </a>
         </div>
         <div class="main-items">
           <h3 class="title">Shelter for pets in Boston</h3>
@@ -210,19 +212,21 @@
             extremely wide and open heart.
           </p>
           <br />
-          <img src="Assets/img/shelter.jpg" alt="shelter" width="100" />
+          <img src="Assets/img/shelter.jpg" alt="shelter" width="100" >
           <a
             href="https://rolling-scopes-school.github.io/maxichek-JSFE2023Q1/shelter/"
-            >&nbsp;Read More</a
           >
+            &nbsp;Read More
+          </a>
         </div>
         <footer id="footer">
-          <a href="https://rs.school/js/"
-            ><img
+          <a href="https://rs.school/js/">
+            <img
               src="./Assets/favicons/rs_school_js.svg"
               width="100"
               alt="rs_school"
-          /></a>
+            >
+          </a>
 
           <p style="color: black">© 2025 by Maxim Grekov</p>
           <p>
@@ -236,5 +240,26 @@
         </footer>
       </main>
     </div>
+    <!-- https://ekoopmans.github.io/html2pdf.js/ -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- JS -->
+    <script type="text/javascript">
+      function toPDF() {
+        const e = document.querySelector('.container');
+
+        //RESIZE
+        e.style.maxWidth = '700px';
+
+        //OPTIONS
+        const opt = {
+          filename: 'resume.pdf',
+        };
+      }
+    </script>
   </body>
 </html>
