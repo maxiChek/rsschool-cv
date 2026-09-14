@@ -7,11 +7,12 @@
   <title>Maksim Grekov's CV</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" href="./Assets/favicons/github-logo.svg">
 </head>
 
 <body>
   <div class="container">
-    <nav class="side-panel">
+    <aside class="side-panel">
       <header class="profile">
         <div class="cv-photo">
           <img src="./Assets/img/DSC05.jpg" width="260" alt="cv-photo">
@@ -20,13 +21,20 @@
         <p>Junior Web Developer</p>
         <button type="button" class="btn">Download PDF</button>
       </header>
-
+      <nav class="cv-nav">
+        <ul>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
       <div class="profile-info">
         <h2 class="title">Contact Info</h2>
         <ul>
           <li>
             <span class="icon"><i class="fab fa-github-square"></i></span>
-            <a href="https://maxichek.github.io/rsschool-cv/" class="text">
+            <a href="https://github.com/maxichek" class="text">
               maxichek
             </a>
           </li>
@@ -39,12 +47,12 @@
             <span class="text">+375 25 904 4323</span>
           </li>
           <li>
+          <li>
             <span class="icon">
-              <a href="https://discord.com/channels/@me">
-                <i class="fab fa-brands fa-discord" style="color: #11a1bb"></i>
-              </a>
+              <i class="fab fa-discord"></i>
             </span>
-            <span class="text">@maxichek</span>
+            <span class="text">maxichek</span>
+          </li>
           </li>
         </ul>
       </div>
@@ -82,7 +90,7 @@
         <h3 class="title">Languages</h3>
         <ul class="lang">
           <li>
-            <span class="text">English — C1: Advanced Level</span>
+            <span class="text">English <span>— C1: Advanced Level</span></span>
             <div class="percent">
               <div style="width: 75%"></div>
             </div>
@@ -95,12 +103,12 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </aside>
 
     <main class="main-panel">
       <!--  -->
       <div class="main-items">
-        <h3 class="title">Summary</h3>
+        <h3 class="title" id="summary">Summary</h3>
         <p>
           Junior web developer and .NET developer, 44 years, with 1 year of
           experience able to build .Net web applications from the ground up -
@@ -114,7 +122,7 @@
       </div>
       <!-- Exper -->
       <div class="main-items">
-        <h3 class="title">Experience</h3>
+        <h3 class="title" id="experience">Experience</h3>
         <div class="experience">
           <div class="time-line">
             <span class="time-point"></span>
@@ -143,8 +151,8 @@
           </div>
           <div class="content">
             <div class="interval">
-              <h5>2020 - Present</h5>
-              <h5>Company</h5>
+              <p>2020 - Present</з>
+              <p>Company</p>
             </div>
             <div class="description">
               <h4>UX/UI Designer</h4>
@@ -162,7 +170,7 @@
 
       <!-- SKILLS -->
       <div class="main-items">
-        <h3 class="title">Professional Skills</h3>
+        <h3 class="title" id="skills">Professional Skills</h3>
         <ul class="skills">
           <li>
             <span>HTML &amp; CSS</span>
@@ -188,15 +196,24 @@
           </li>
         </ul>
       </div>
-      <pre><code>
-            function typeOfSum(a, b) {
-              return typeof(a + b);
-            }
-          </code></pre>
-      <div class="main-items">
-        <h3 class="title">Garderners Service Shop</h3>
+      <section class="main-items">
+        <h2 class="title">Code Example</h2>
+
         <p>
-          Designed built &amp; mantained a the lab managment system for FOI
+          Codewars:
+          <a href="https://www.codewars.com/kata/5a2e9ae2b6cfd7692a0000ba">
+            Type of Sum
+          </a>
+        </p>
+
+        <pre><code>function typeOfSum(a, b) {
+  return typeof (a + b);
+}</code></pre>
+      </section>
+      <div class="main-items">
+        <h3 class="title" id="projects">Gardeners Service Shop</h3>
+        <p>
+          Designed built &amp; maintained the lab management system for FOI
           Laboratories
         </p>
         <img src="Assets/img/plants.jpg" alt="plants" width="100">
